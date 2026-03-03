@@ -21,3 +21,6 @@ include:
     - board: piantor_pro_bt_right
       shield: settings_reset
       snippet: studio-rpc-usb-uart
+
+    - board: seeeduino_xiao_ble
+      shield: piantor_dongle prospector_adapter
