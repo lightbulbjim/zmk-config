@@ -4,7 +4,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "charybdis_mini-layouts.dtsi"
+#include "charybdis-layouts.dtsi"
 
 / {
     chosen {

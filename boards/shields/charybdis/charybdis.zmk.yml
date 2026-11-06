@@ -3,8 +3,8 @@
 # for instructions.
 
 file_format: "1"
-id: charybdis_mini
-name: Charybdis Mini
+id: charybdis
+name: Charybdis
 type: shield
 
 # Set this to a URL that documents the keyboard.
@@ -20,5 +20,5 @@ requires:
   - pro_micro
 
 siblings:
-  - charybdis_mini_left
-  - charybdis_mini_right
+  - charybdis_left
+  - charybdis_right
