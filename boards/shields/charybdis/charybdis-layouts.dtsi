@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    default_layout: default_layout {
+    physical_layout0: physical_layout0 {
         compatible = "zmk,physical-layout";
         display-name = "Charybdis Mini";
         transform = <&default_transform>;
