@@ -5,7 +5,6 @@
         compatible = "zmk,physical-layout";
         display-name = "Charybdis Mini";
         transform = <&default_transform>;
-        kscan = <&kscan>;
 
         keys
             // Left main
