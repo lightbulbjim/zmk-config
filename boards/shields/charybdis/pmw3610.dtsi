@@ -40,8 +40,8 @@
 
         /* CONFIG_PMW3610_ALT_SWAP_XY / INVERT_X / INVERT_Y are deprecated - use DTS properties */
         swap-xy;
-        invert-x;
-        invert-y;
+        //invert-x;
+        //invert-y;
 
         force-awake;
         /* keep the sensor awake while ZMK activity state is ACTIVE,
