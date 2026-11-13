@@ -1,0 +1,7 @@
+#include "charybdis_dongled.dtsi"
+#include "pmw3610.dtsi"
+
+&trackball_listener {
+    status = "okay";
+    device = <&trackball>;
+};
