@@ -1,10 +1,18 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "charybdis_dongled.dtsi"
+#include "charybdis_dongled-layout.dtsi"
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &physical_layout0;
+    };
+
+    // No real keys on the dongle
+    mock_kscan: kscan0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
     };
 
 };
