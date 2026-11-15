@@ -1,5 +1,0 @@
-#include "charybdis_dongled-matrix.dtsi"
-
-&default_transform {
-    col-offset = <6>;
-};
